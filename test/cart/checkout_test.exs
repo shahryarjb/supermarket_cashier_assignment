@@ -3,7 +3,7 @@ defmodule ScaTest.Cart.CheckoutTest do
 
   use ExUnit.Case
   alias Sca.Cart.Checkout
-  alias Sca.PricingRule.Discount
+  alias Sca.Discount
   alias Sca.Cart.Product
 
   setup do
