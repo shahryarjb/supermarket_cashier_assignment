@@ -1,6 +1,12 @@
 defmodule Sca.Discount do
   @moduledoc """
   A factory for dynamically creating discount rule structs based on the type.
+
+  ### Note:
+
+  Why did I place this module outside a directory? The main reason is that I considered the
+  entire project as a market, and since all the paths have not been fully determined yet,
+  I placed the Discount module outside as a parent module.
   """
   alias Sca.Cart.Checkout
 
