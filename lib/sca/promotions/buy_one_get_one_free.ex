@@ -5,6 +5,8 @@ defmodule Sca.Promotions.BuyOneGetOneFree do
   @type t :: %__MODULE__{product_code: String.t()}
 end
 
+# The CEO is a big fan of buy-one-get-one-free offers and of green tea. He wants us to add a
+# rule to do this.
 defimpl Sca.Discount.Rule,
   for: Sca.Promotions.BuyOneGetOneFree do
   alias Sca.Promotions.BuyOneGetOneFree

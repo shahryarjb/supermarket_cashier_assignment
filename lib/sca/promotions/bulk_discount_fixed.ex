@@ -8,6 +8,9 @@ defmodule Sca.Promotions.BulkDiscountFixed do
         }
 end
 
+# The COO, though, likes low prices and wants people buying strawberries to get a price
+# discount for bulk purchases. If you buy 3 or more strawberries, the price should drop to £4.50
+# per strawberry.
 defimpl Sca.Discount.Rule,
   for: Sca.Promotions.BulkDiscountFixed do
   alias Sca.Promotions.BulkDiscountFixed

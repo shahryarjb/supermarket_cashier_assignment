@@ -9,6 +9,8 @@ defmodule Sca.Promotions.TakeThreePayTwo do
         }
 end
 
+# The CTO is a coffee addict. If you buy 3 or more coffees, the price of all coffees should drop
+# to two thirds of the original price.
 defimpl Sca.Discount.Rule,
   for: Sca.Promotions.TakeThreePayTwo do
   alias Sca.Promotions.TakeThreePayTwo
